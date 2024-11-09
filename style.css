@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman'; 
+    font-size: 35px;
+}
+body{
+    background: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    min-height: 1500px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 2.7fr 3.5fr ;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_Side{
+    position: relative;
+    background: #6C7B8B;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.profileText .imgBx{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2{
+    color: #fff;
+    font-size: 0.9cm;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1cm;
+    font-size: 50px;
+}
+.profileText h2 span{
+    font-size: 0.7cm;
+    font-weight: 300;
+}
+.contactInfo{
+    padding-top: 50px;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    
+    color: #B9D3EE;
+}
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.fi {
+    color: #fff;
+    padding-top: 40px
+}
+.fi h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.fi ul{
+    position: relative;
+}
+.fi ul li{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.ski{
+    color: #fff;
+    padding-top: 40px
+}
+.ski h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.ski ul{
+    position: relative;
+}
+.ski ul li{
+    position: relative;
+    margin: 20px 0;
+    cursor: pointer;
+    list-style: none;
+  
+}
+.ski .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 8px;
+}
+.ski .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #5CACEE;
+}
+.like{
+    color: #fff;
+    padding-top: 40px
+}
+.like h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.like ul{
+    position: relative;
+}
+.like ul li{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.container .right_Side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about :last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: px;
+    margin-bottom: 10px;
+    font-size: 12.5mm;
+}
+.about ul{
+    color: black;
+}
+.about ul li{
+    font-size: 35px;
+    line-height: 1.5cm;
+}
+
+    
